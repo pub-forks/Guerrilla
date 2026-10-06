@@ -1,10 +1,15 @@
 {
-  "generated": "2026-10-04 16:08 UTC",
+  "generated": "2026-10-06 17:34 UTC",
   "kev": {
-    "catalogVersion": "2026.10.02",
-    "count": 1733,
-    "date": "2026-10-02",
+    "catalogVersion": "2026.10.04",
+    "count": 1734,
+    "date": "2026-10-04",
     "newest": [
+      {
+        "added": "2026-10-04",
+        "cve": "CVE-2026-88779",
+        "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability"
+      },
       {
         "added": "2026-10-02",
         "cve": "CVE-2026-102490",
@@ -24,11 +29,6 @@
         "added": "2026-09-30",
         "cve": "CVE-2026-76504",
         "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability"
-      },
-      {
-        "added": "2026-09-29",
-        "cve": "CVE-2026-86950",
-        "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability"
       }
     ]
   },
