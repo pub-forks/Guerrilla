@@ -2,7 +2,7 @@
 
 > Generated daily by `.github/workflows/cisa-roadmap.yml` (`scripts/roadmap/cisa-scan.py`). Do not edit by hand: changes are overwritten on the next scan. This is a deterministic diff of upstream CISA SCuBA baselines against the checks Guerrilla ships. No AI is involved.
 
-Last scan: **2026-10-07 18:06 UTC**
+Last scan: **2026-10-08 18:08 UTC**
 
 ## Upstream state
 
@@ -10,7 +10,7 @@ Last scan: **2026-10-07 18:06 UTC**
 |---|---|---|
 | ScubaGear (M365 / Entra) | [v1.8.0](https://github.com/cisagov/ScubaGear/releases/tag/v1.8.0) (2026-05-07) | MS.* Secure Configuration Baselines |
 | ScubaGoggles (Google Workspace) | [v1.0.1](https://github.com/cisagov/ScubaGoggles/releases/tag/v1.0.1) (2026-07-28) | GWS.* Secure Configuration Baselines |
-| CISA KEV catalog | 2026.10.04 (2026-10-04) | 1734 known-exploited CVEs |
+| CISA KEV catalog | 2026.10.08 (2026-10-08) | 1739 known-exploited CVEs |
 | CISA BOD 25-01 | [SCuBA mandate](https://www.cisa.gov/news-events/directives/binding-operational-directive-25-01) | Secure cloud baselines for FCEB M365 |
 
 ## SCuBA coverage summary
@@ -161,15 +161,18 @@ Version drift (Guerrilla references an older policy version than upstream):
 
 Broader CISA context (CVE-level, not directly a config baseline):
 
-- `CVE-2026-88779` Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability (added 2026-10-04)
-- `CVE-2026-102490` Zammad GmbH Zammad Improper Privilege Management Vulnerability (added 2026-10-02)
-- `CVE-2026-102489` Zammad GmbH Zammad Session Fixation Vulnerability (added 2026-10-02)
-- `CVE-2026-104286` Fortinet FortiMail Path Traversal Vulnerability (added 2026-10-01)
-- `CVE-2026-76504` Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability (added 2026-09-30)
+- `CVE-2015-5477`  ISC BIND Data Processing Errors Vulnerability (added 2026-10-08)
+- `CVE-2016-3081` Apache Struts Command Injection Vulnerability (added 2026-10-08)
+- `CVE-2023-22894` Strapi Cleartext Storage of Sensitive Information Vulnerability (added 2026-10-08)
+- `CVE-2021-3199` ONLYOFFICE Docs Server Path Traversal Vulnerability (added 2026-10-08)
+- `CVE-2015-3306` ProFTPD Improper Access Control Vulnerability (added 2026-10-08)
 
 ## Scan log
 
 Most recent first. One entry per day the scanner ran.
+
+### 2026-10-08
+- KEV catalog 2026.10.04 -> 2026.10.08 (+5 entries, now 1739)
 
 ### 2026-10-07
 - No upstream changes detected.

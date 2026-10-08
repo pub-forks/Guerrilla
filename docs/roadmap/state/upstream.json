@@ -1,34 +1,34 @@
 {
-  "generated": "2026-10-07 18:06 UTC",
+  "generated": "2026-10-08 18:08 UTC",
   "kev": {
-    "catalogVersion": "2026.10.04",
-    "count": 1734,
-    "date": "2026-10-04",
+    "catalogVersion": "2026.10.08",
+    "count": 1739,
+    "date": "2026-10-08",
     "newest": [
       {
-        "added": "2026-10-04",
-        "cve": "CVE-2026-88779",
-        "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability"
+        "added": "2026-10-08",
+        "cve": "CVE-2015-5477",
+        "name": " ISC BIND Data Processing Errors Vulnerability"
       },
       {
-        "added": "2026-10-02",
-        "cve": "CVE-2026-102490",
-        "name": "Zammad GmbH Zammad Improper Privilege Management Vulnerability"
+        "added": "2026-10-08",
+        "cve": "CVE-2016-3081",
+        "name": "Apache Struts Command Injection Vulnerability"
       },
       {
-        "added": "2026-10-02",
-        "cve": "CVE-2026-102489",
-        "name": "Zammad GmbH Zammad Session Fixation Vulnerability"
+        "added": "2026-10-08",
+        "cve": "CVE-2023-22894",
+        "name": "Strapi Cleartext Storage of Sensitive Information Vulnerability"
       },
       {
-        "added": "2026-10-01",
-        "cve": "CVE-2026-104286",
-        "name": "Fortinet FortiMail Path Traversal Vulnerability"
+        "added": "2026-10-08",
+        "cve": "CVE-2021-3199",
+        "name": "ONLYOFFICE Docs Server Path Traversal Vulnerability"
       },
       {
-        "added": "2026-09-30",
-        "cve": "CVE-2026-76504",
-        "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability"
+        "added": "2026-10-08",
+        "cve": "CVE-2015-3306",
+        "name": "ProFTPD Improper Access Control Vulnerability"
       }
     ]
   },
